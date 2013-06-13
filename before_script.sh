@@ -1,3 +1,5 @@
+xhost +
+export DISPLAY=:0.0
 serverUrl='http://127.0.0.1:4444'
 serverVersion='2.32.0'
 serverFile=selenium-server-standalone-$serverVersion.jar
